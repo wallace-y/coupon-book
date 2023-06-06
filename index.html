@@ -11,6 +11,8 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/d632095aa9.js" crossorigin="anonymous"></script>
   </head>
   <!-- Navbar -->
@@ -81,8 +83,11 @@
         <h1 class="text-center mb-3">Your book of coupons</h1>
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div class="col">
-              <div class="card shadow-sm">
+            <div class="col position-relative">
+        
+              <p class="redemeed position-absolute top-50 start-50 translate-middle">Redeemed</p>
+
+              <div class="card shadow-sm" >
                 <img  
                 alt="picture of a dog shaking hands" width="100%" height="auto" src="https://media3.giphy.com/media/37QVu0vvSr1OIhNMAb/giphy.gif?cid=ecf05e47aw4zunkaildxv98guinee6xmmtfflxtzgzy4k4h2&ep=v1_gifs_search&rid=giphy.gif&ct=g"></img>
 
@@ -106,7 +111,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card shadow-sm">
+              <div class="card shadow-sm ">
                 
 
                 <img  
